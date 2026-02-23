@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="flex justify-center bg-gray-100">
     <div class="header">
         <div class="logo">Rocket.</div>
         <div class="links">
@@ -20,25 +20,191 @@
     
     <div class="hero-section">
         <h1 class="main-heading">Welcome to Our Website</h1>
-        <button class="book-button">BOOK NOW</button>
+        <button class="book-button">ORDER NOW</button>
     </div>
 
-    <div class="action-section">
-        <div class="act1">
-            <i class="fa-solid fa-pen pen"></i>
-            <h3>EASY TO EDIT</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique enim suscipit, ipsam nam incidunt est libero quibusdam vitae quod temporibus quia qui accusamus dolores voluptatum molestias fugiat consectetur voluptatem odit? </p>
+<section class="w-[100%] mx-auto mt-10 mb-10">
+    <div class="flex flex-wrap justify-center gap-[px]">
+      <div class="flex w-[330px]  flex-col items-center  p-8  shadow-sm">
+        <div class="mb-10 flex h-20 w-20 items-center justify-center rounded-full border-4 border-black">
+          <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
         </div>
-        <div class="act2">
-            <i class="fa-solid fa-pen-to-square layer"></i>
-            <h3>EASY TO EDIT</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique enim suscipit, ipsam nam incidunt est libero quibusdam vitae quod temporibus quia qui accusamus dolores voluptatum molestias fugiat consectetur voluptatem odit? </p>
+        <h3 class="mb-3 text-2xl font-bold text-black text-center">FAST PERFORMANCE</h3>
+        <p class="text-center text-gray-500 leading-relaxed">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, voluptatum dolorem. Id ad autem est exercitationem aspernatur accusantium natus vitae commodi, nihil et voluptas cum libero iure adipisci quod alias?
+        </p>
+      </div>
+
+      <div class="flex w-[330px] flex-col items-center p-8">
+        <div class="mb-10 flex h-20 w-20 items-center justify-center rounded-full border-4 border-black">
+          <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
         </div>
-        <div class="act3">
-            <i class="fa-solid fa-rocket rocket"></i>
-            <h3>EASY TO EDIT</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique enim suscipit, ipsam nam incidunt est libero quibusdam vitae quod temporibus quia qui accusamus dolores voluptatum molestias fugiat consectetur voluptatem odit? </p>
+        <h3 class="mb-3 text-2xl font-bold text-black text-center">SECURE DESIGNS</h3>
+        <p class="text-center text-gray-500 leading-relaxed">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi necessitatibus mollitia cupiditate! Perspiciatis sunt tenetur atque aspernatur accusamus aperiam, voluptas, in ut exercitationem placeat ad nisi dolore ?
+        </p>
+      </div>
+
+      <div class="flex w-[330px] flex-col items-center  p-8 ">
+        <div class="mb-10 flex h-20 w-20 items-center justify-center rounded-full border-4 border-black">
+          <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
         </div>
+        <h3 class="mb-3 text-2xl font-bold text-black text-center">QUALITY CODE</h3>
+        <p class="text-center text-gray-500 leading-relaxed">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, ab delectus. Fugit aliquid labore ipsa eius accusantium unde ab quis vel, et aspernatur, officiis sequi ad, nulla excepturi sed recusandae?here we are adding paragraph
+        </p>
+      </div>
+
     </div>
+</section>
+
+
+<section class="w-[100%] bg-blue-500 p-8 flex justify-center">
+    <div class="border-[3px] border-black p-6 w-full max-w-2xl flex flex-col items-center text-center text-white">
+        <h3 class="text-2xl font-bold uppercase tracking-wide">Section Heading for paragraph</h3>
+        <hr class="w-[99%] border-t-2 border-white my-4">
+        <p class="text-sm md:text-base opacity-90 mb-6">
+        This is a single line paragraph designed to fit perfectly within your rectangle.
+        </p>
+        <button class="bg-inherit border-2 border-white px-8 py-4 uppercase text-xs font-semibold tracking-widest hover:bg-white hover:text-blue-900 transition-colors">
+            Click Here a botton
+        </button>
+    </div>
+</section>
+
+<section class="w-[100%] mx-auto mt-10 mb-10">
+    <div class="text-center mb-10">
+      <h2 class="text-3xl  font-black text-gray-900 uppercase tracking-tight">Featured Products</h2>
+    </div>
+
+    <div class="flex flex-wrap justify-center gap-[35px]">
+      <div class="flex w-[300px] flex-col items-center bg-white  shadow-sm border-[0.2px] border-black overflow-hidden">
+        <img src="6.png"
+            alt="Product"
+            class="w-full h-full object-cover">
+        <div class="p-6 flex flex-col items-center flex-grow">
+          <h3 class="text-2xl font-bold text-gray-800 mb-">Luxury Watch</h3>
+          <p class="text-gray-500 text-sm text-center line-clamp-1 mb-">
+            Elegant stainless steel design for every occasion.
+          </p>
+          <div class="text-xl font-black text-black mb-">$299.00</div>
+        </div>
+
+        <button class="w-[98%] m-0.5 bg-black text-white py-1.5 font-light uppercase tracking-widest hover:bg-gray-800 transition-colors">
+          Add to Cart
+        </button>
+      </div>
+
+      <div class="flex w-[300px] flex-col items-center bg-white  shadow-sm border-[0.2px] border-black overflow-hidden">
+        <img src="6.png"
+            alt="Product"
+            class="w-full h-full
+            object-cover">
+
+        <div class="p-6 flex flex-col items-center flex-grow">
+          <h3 class="text-2xl font-bold text-gray-800 ">Wireless Audio</h3>
+          <p class="text-gray-500 text-sm text-center line-clamp-1">
+            Crystal clear sound with active noise cancellation.
+          </p>
+          <div class="text-xl font-black text-black ">$150.00</div>
+        </div>
+
+        <button class="w-[98%] m-0.5 bg-black text-white py-1.5 font-light uppercase tracking-widest hover:bg-gray-800 transition-colors">
+          Add to Cart
+        </button>
+      </div>
+
+      <div class="flex w-[300px] flex-col items-center bg-white  shadow-sm border-[0.2px] border-black overflow-hidden">
+        <img src="6.png"
+            alt="Product"
+            class="w-full h-full object-cover">
+        
+        <div class="p-6 flex flex-col items-center flex-grow ">
+          <h3 class="text-2xl font-bold text-gray-800 ">Smart Gadget</h3>
+          <p class="text-gray-500 text-sm text-center line-clamp-1 ">
+            The next generation of wearable technology.
+          </p>
+          <div class="text-xl font-black text-black">$199.00</div>
+        </div>
+
+        <button class="w-[98%] m-0.5 border-2 border-black bg-black text-white py-1 font-light uppercase tracking-widest hover:bg-gray-800 transition-colors">
+          Add to Cart
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="w-[100%] bg-blue-500 p-8 flex justify-center">
+    <div class="border-[3px] border-black p-6 w-full max-w-2xl flex flex-col items-center text-center text-white">
+        <h3 class="text-2xl font-bold uppercase tracking-wide">Section Heading for paragraph</h3>
+        <hr class="w-[99%] border-t-2 border-white my-4">
+        <p class="text-sm md:text-base opacity-90 mb-6">
+        This is a single line paragraph designed to fit perfectly within your rectangle.
+        </p>
+        <button class="bg-inherit border-2 border-white px-8 py-4 uppercase text-xs font-semibold tracking-widest hover:bg-white hover:text-blue-900 transition-colors">
+            Click Here a botton
+        </button>
+    </div>
+</section>
+
+<footer class="bg-gray-100 border-t border-gray-200">
+  <div class="max-w-6xl mx-auto px-6 py-12">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-10">
+      <!-- LEFT SIDE - Logo + Location -->
+      <div>
+        <h2 class="text-xl font-bold text-gray-800 mb-4">
+          Rocket.
+        </h2>
+        <p class="text-gray-600 text-m leading-relaxed">
+          #5 Main Street <br>
+          Gilgit, Pakistan <br>
+          15100
+        </p>
+      </div>
+      <!-- COLUMN 1 -->
+      <div>
+        <h3 class="text-m font-bold text-gray-900 uppercase tracking-wider mb-2">
+          Product
+        </h3>
+        <ul class="space-y-2">
+          <li><a href="#" class="text-gray-600 hover:text-gray-900 text-sm  font-medium transition">FEATURES</a></li>
+          <li><a href="#" class="text-gray-600 hover:text-gray-900 text-sm  font-medium transition">PRICING</a></li>
+          <li><a href="#" class="text-gray-600 hover:text-gray-900 text-sm  font-medium transition">INTEGRATION</a></li>
+          <li><a href="#" class="text-gray-600 hover:text-gray-900 text-sm  font-medium transition">UPDATE</a></li>
+        </ul>
+      </div>
+      <!-- COLUMN 2 -->
+      <div>
+        <h3 class="text-m font-bold text-gray-900 uppercase tracking-wider mb-2">
+          Company
+        </h3>
+        <ul class="space-y-2">
+          <li><a href="#" class="text-gray-600 hover:text-gray-900 text-sm font-medium transition">ABOUT</a></li>
+          <li><a href="#" class="text-gray-600 hover:text-gray-900 text-sm font-medium transition">CARRER</a></li>
+          <li><a href="#" class="text-gray-600 hover:text-gray-900 text-sm font-medium transition">BLOG</a></li>
+          <li><a href="#" class="text-gray-600 hover:text-gray-900 text-sm font-medium transition">CONTACT</a></li>
+        </ul>
+      </div>
+      <!-- COLUMN 3 -->
+      <div>
+        <h3 class="text-m font-bold text-gray-900 uppercase tracking-wider mb-2">
+          Resources
+        </h3>
+        <ul class="space-y-2">
+          <li><a href="#" class="text-gray-600 hover:text-gray-900 text-sm font-medium transition">DOCUMENTATION</a></li>
+          <li><a href="#" class="text-gray-600 hover:text-gray-900 text-sm font-medium transition">HELP CENTER</a></li>
+          <li><a href="#" class="text-gray-600 hover:text-gray-900 text-sm font-medium transition">PRIVACY POLICY</a></li>
+          <li><a href="#" class="text-gray-600 hover:text-gray-900 text-sm font-medium transition">TERMS OF SERVICE</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- Bottom Line -->
+    <div class="border-t border-gray-200 mt-12 pt-6 text-sm text-gray-500 text-center">
+      © 2026 YourCompany. All rights reserved.
+    </div>
+  </div>
+</footer>
+
 </body>
 </html>
